@@ -1,0 +1,48 @@
+[12-Feb-2019 15:59:15 UTC] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /home/service/public_html/system/libraries/Session/Session.php(143): session_start()
+#2 /home/service/public_html/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/service/public_html/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/service/public_html/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/service/public_html/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/service/public_html/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /home/service/public_html/system/core/Loader.php(202): CI_Loader->library('session', NULL)
+#8  in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Feb-2019 15:59:15 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /home/service/public_html/system/libraries/Session/Session.php on line 143
+[12-Feb-2019 18:25:09 UTC] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /home/service/public_html/system/libraries/Session/Session.php(143): session_start()
+#2 /home/service/public_html/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/service/public_html/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/service/public_html/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/service/public_html/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/service/public_html/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /home/service/public_html/system/core/Loader.php(202): CI_Loader->library('session', NULL)
+#8  in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Feb-2019 18:25:09 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /home/service/public_html/system/libraries/Session/Session.php on line 143
+[12-Feb-2019 18:25:21 UTC] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /home/service/public_html/system/libraries/Session/Session.php(143): session_start()
+#2 /home/service/public_html/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/service/public_html/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/service/public_html/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/service/public_html/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/service/public_html/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /home/service/public_html/system/core/Loader.php(202): CI_Loader->library('session', NULL)
+#8  in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Feb-2019 18:25:21 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /home/service/public_html/system/libraries/Session/Session.php on line 143
+[13-Feb-2019 11:29:10 UTC] PHP Warning:  Uncaught Exception: Session: Configured save path '' is not a directory, doesn't exist or cannot be created. in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('', 'ci_session')
+#1 /home/service/public_html/system/libraries/Session/Session.php(143): session_start()
+#2 /home/service/public_html/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/service/public_html/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/service/public_html/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/service/public_html/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/service/public_html/system/core/Loader.php(218): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#7 /home/service/public_html/system/core/Loader.php(202): CI_Loader->library('session', NULL)
+#8  in /home/service/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[13-Feb-2019 11:29:10 UTC] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: ) in /home/service/public_html/system/libraries/Session/Session.php on line 143
